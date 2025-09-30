@@ -20,18 +20,25 @@ System.out.println(y);
     1) Create the variables, ask the user for the variable values, 
     write the equation in fileEQ1.1-act6 and display the equation value.
 */
-System.out.println(z"enter z"); 
+System.out.println("enter z"); 
 double z = Input.readDouble(); 
 double q = 0; 
-q = 
+q = (Math.pow(z,3)+ 5); 
+System.out.println(q);
 
 /*  
     Challenge 3:
-    Create the variables, ask the user for the variable values, write the equation in file EQ2-act6 and display the equation value..
+    Create the variables, ask the user for the variable values, 
+    write the equation in file EQ2-act6 and display the equation value..
     
 */
-
- 
+System.out.println("Enter t"); 
+System.out.println("Enter r");
+double r = Input.readDouble(); 
+double t = Input.readDouble(); 
+double s = 0; 
+s = Math.pow((Math.pow(t,5)*r+2)),4);
+System.out.println("s");
 
 /*  
     Challenge 4:
