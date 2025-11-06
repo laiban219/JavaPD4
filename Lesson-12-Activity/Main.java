@@ -94,7 +94,8 @@ class Main {
   }
 
   boolean validatePswd(String pswd){
-    if(pswd.lengthOf("^")==-1 && pswd.lengthOf("*")==-1 && pswd.lengthOf("(")==-1 && pswd.lengthOf(")")==-1){
+    
+    if(pswd.length()>=5 && pswd.length<8 && pswd.indexOf("^")==-1 && pswd.indexOf("*")==-1 && pswd.indexOf("(")==-1 && pswd.indexhOf(")")==-1){
       return "true"; 
     }
     else{
